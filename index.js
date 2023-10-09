@@ -1,7 +1,7 @@
 const express = require('express');
 const app = express();
 const port = process.env.PORT || 3003;
-const programmingLanguagesRouter = require("./routes/programmingLanguages");
+const programmingLanguagesRouter = require("./");
 
 app.use(express.json());
 app.use(
